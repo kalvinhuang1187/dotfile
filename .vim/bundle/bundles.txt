@@ -1,5 +1,6 @@
 vundle
 ctrlp.vim
+vim-rails
 nerdtree
 vim-colors-solarized
 grb256
