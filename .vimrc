@@ -12,6 +12,7 @@ set smartindent
 set showcmd			
 set lazyredraw 
 set expandtab
+set number
 syntax enable 
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -44,3 +45,12 @@ let g:ctrlp_prompt_mappings = {
 execute pathogen#infect()
 map <C-n> :NERDTree .<CR>
 let g:NERDTreeWinSize=31
+
+
+set history=256   " Number of things to remember in history.
+set autowrite     " Writes on make/shell commands
+set autoread      " Reload file on external change
+set timeoutlen=250    " Time to wait after ESC (default causes an annoying delay)
+set novisualbell  " No blinking
+set mousehide     " Hide mouse after chars typed
+
