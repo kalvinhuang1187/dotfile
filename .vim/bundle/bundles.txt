@@ -1,0 +1,5 @@
+vundle
+ctrlp.vim
+nerdtree
+vim-colors-solarized
+grb256
