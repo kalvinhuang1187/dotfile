@@ -1,6 +1,8 @@
-vundle
 ctrlp.vim
-vim-rails
+grb256
 nerdtree
 vim-colors-solarized
-grb256
+vim-endwise
+vim-rails
+vim-surround
+vundle
