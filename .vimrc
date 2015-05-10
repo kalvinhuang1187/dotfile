@@ -54,3 +54,7 @@ set timeoutlen=250    " Time to wait after ESC (default causes an annoying delay
 set novisualbell  " No blinking
 set mousehide     " Hide mouse after chars typed
 
+" Skip up and down by 10 lines
+map <C-j> 10j
+map <C-k> 10k
+
