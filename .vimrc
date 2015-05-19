@@ -43,9 +43,9 @@ let g:ctrlp_prompt_mappings = {
 \}
 
 execute pathogen#infect()
-map <C-n> :NERDTree .<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=31
-
+let g:NERDTreeHijackNetrw=0
 
 set history=256   " Number of things to remember in history.
 set autowrite     " Writes on make/shell commands
